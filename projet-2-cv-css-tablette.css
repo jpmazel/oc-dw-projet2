@@ -12,8 +12,8 @@ html, body{
   text-transform: uppercase;
 }
 .container {
-  width: 80vw;
-  margin: auto;
+  width: 100vw;
+  
   display: flex;
 
 }
@@ -54,6 +54,8 @@ html, body{
 .contact p:first-of-type {
   margin-top: 2.25rem;
 }
+
+
 
 .a-propos-de-moi{
   margin-top: 2.25rem;

@@ -27,7 +27,7 @@ html, body{
 .photo img{
   height: 216px;
   width: 216px;
-  border: 1px black solid;
+  border: 1px rgba(0, 0, 0, 1) solid;
   border-radius: 216px;
   background-image: url(./images/photo.jpg) ;
   margin-top: 67px;
@@ -55,9 +55,16 @@ html, body{
 
 .a-propos-de-moi{
   margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
+  margin-bottom: 2.25rem;   
+}
+
+ a:hover{
+  text-decoration: none;
+  background: red;
+  color: white;
   
   
+  border-radius: 0.2rem;
 }
 
 .a-propos-de-moi p{
