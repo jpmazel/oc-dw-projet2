@@ -34,9 +34,21 @@ justify-content: space-around;
   flex: none;   
  }
 
+ .lieu{
+  padding-left: 1.87rem;
+  flex: auto;  
+}
+
 .recommandations-container ul{
   padding-top: 1.25rem;  
 }
+
+.titre-droite{
+  flex: 3;
+}
+
+
+
 
 
 
