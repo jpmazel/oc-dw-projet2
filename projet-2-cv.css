@@ -167,7 +167,7 @@ flex-direction: column;
   } 
 
 .lieu{
-  padding: 20px;
+  padding: 1.25rem;
   flex: auto;  
 }
 
@@ -185,7 +185,7 @@ flex-direction: column;
 
 .lieu li{
   list-style: circle;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .recommandations-container{
