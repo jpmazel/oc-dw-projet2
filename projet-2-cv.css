@@ -61,17 +61,14 @@ html, body{
  a:hover{
   text-decoration: none;
   background: red;
-  color: white;
-  
-  
+  color: white;  
   border-radius: 0.2rem;
 }
 
 .a-propos-de-moi p{
   margin-left: 3rem;
   margin-right: 3rem;
-  margin-bottom: 1rem;
-  
+  margin-bottom: 1rem;  
   text-align: justify;
 }
 
@@ -103,8 +100,7 @@ justify-content: space-around;
 }  
   
 .fontawesome h2{
-  margin-left: 2.5rem;
-  
+  margin-left: 2.5rem;  
   padding-bottom: 0.5rem;
 }
 
@@ -114,7 +110,6 @@ justify-content: space-around;
 
 .nom-prenom{
 margin-bottom: 9rem;
-/* text-align: left; */
 }
 
 .nom-prenom>h1{
@@ -146,11 +141,9 @@ margin-bottom: 9rem;
 .formation-container{
 display: flex;
 flex-direction: column;
-
 }
 
 .formation-bloc{
-  /* background: yellowgreen; */
   display: flex;
   flex-shrink: 0;
 }
@@ -161,24 +154,18 @@ flex-direction: column;
   justify-content: flex-start;
   flex-wrap: nowrap;
   align-content: flex-start;
-  flex: 0 0 12rem;
-  
-  /* background: green; */
-   
-   }
+  flex: 0 0 12rem;  
+ }
+
 .bullet-style{    
     flex-shrink: 1;
-  }
+}
 
 .date-ville{
-    /* background: yellow; */
-    /* padding-left: 1rem; */
-    margin-left: 1rem;     
-  
+    margin-left: 1rem;  
   } 
 
 .lieu{
-  /* background: #FECA07; */
   padding: 20px;
   flex: auto;  
 }
@@ -207,21 +194,17 @@ flex-direction: column;
 }
 
 .recommandations-container li{
-  list-style: none;
-  
+  list-style: none;  
 }
 
 .recommandations-container ul{
-  padding-top: 1.25rem;
-  
+  padding-top: 1.25rem;  
 }
-
 
 /* icone  loisirs*/
 .fontawesome{
   display: flex; 
   flex-wrap: wrap; 
-  /* background: green;  */
   justify-content: flex-start;
   align-items: center;  
 }
