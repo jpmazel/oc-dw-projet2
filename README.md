@@ -4,15 +4,15 @@ Openclassrooms Developpeur Web Projet 2
 
 * HTML5
 * CSS3
-* GIT, gitignore
-* node and npm (minify and mighty-sync to watch it)
+* GIT, Git Hub , MINGW64
+
 
 
 
 
 ## Author
 
-👤 **Axel Devisse**
+👤 **Jean-Pierre MAZEL**
 
 * Github: [@Jean-Pierre MAZEL](https://github.com/jpmazel)
 * LinkedIn: [@Jean-Pierre MAZEL](https://www.linkedin.com/in/jeanpierremazel/)
