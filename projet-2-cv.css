@@ -58,8 +58,7 @@ html, body{
 
 .a-propos-de-moi{
   margin-top: 2.25rem;
-  margin-bottom: 2.25rem; 
-    
+  margin-bottom: 2.25rem;     
 }
 
  a:hover{
@@ -73,8 +72,7 @@ html, body{
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 1rem;  
-  text-align: justify;
-  
+  text-align: justify;  
 }
 
 .container-a-propos{
@@ -91,29 +89,20 @@ html, body{
   font-size: 50px;
 }
 
-.loisirs{  
- 
+.loisirs{   
   margin-top: 2.25rem;
-  margin-bottom: 2.25rem;  
-  
-  
-}
-
-
-.fab, .fas{
-  font-size: 3rem;  
+  margin-bottom: 2.25rem;    
 }
 
 .icone-loisirs{
 display: flex;
 justify-content: space-around;
 padding-bottom: 2.25rem;
-
 }
 
-
-
-
+.fab, .fas{
+  font-size: 3rem;   
+}
 
 /* ---------colonne de DROITE -----------*/
 .droit{
