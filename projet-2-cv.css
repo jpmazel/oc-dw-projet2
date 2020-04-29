@@ -222,17 +222,19 @@ a:hover {
 
 .lieu li {
   list-style: circle;
-  margin-left: 1rem;
+  margin-left: 1rem;  
 }
 
 .recommandations-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
 }
 
 .recommandations-container li {
   list-style: none;
+  margin-right: 10px;
 }
 
 .recommandations-container ul {
