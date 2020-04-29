@@ -4,48 +4,49 @@
   font-style: normal;
 }
 
-html, body{
-  font-family: 'Open Sans', sans-serif;
+html,
+body {
+  font-family: "Open Sans", sans-serif;
 }
-.uppercase{
+.uppercase {
   text-transform: uppercase;
 }
 .container {
   width: 80vw;
   margin: auto;
   display: flex;
-
 }
+
 /* colonne de gauche */
 .gauche {
-  background: #FECA07;
+  background: #feca07;
   width: 384px;
   display: flex; /*ajout pour pb position loisirs*/
-  flex-direction: column;/*ajout pour pb position loisirs*/
-}
-.photo{
-  text-align: center;
-  
-}
-.photo img{
-  height: 216px;
-  width: 216px;
-  border: 1px rgba(0, 0, 0, 1) solid;
-  border-radius: 216px;
-  background-image: url(./images/photo.jpg) ;
-  margin-top: 67px;
-  margin-bottom: 44px;  
+  flex-direction: column; /*ajout pour pb position loisirs*/
 }
 
-.photo-mobile{
+.photo {
+  text-align: center;
+}
+.photo img {
+  height: 216px;
+  width: 216px;
+  border: 3px rgba(0, 0, 0, 0.5) solid;
+  border-radius: 216px;
+  background-image: url(./images/photo.jpg);
+  margin-top: 67px;
+  margin-bottom: 44px;
+}
+
+.photo-mobile {
   display: none;
 }
-.gauche h2{
+.gauche h2 {
   background: #333;
-  color: #FECA07;
+  color: #feca07;
   text-align: center;
   line-height: 3rem;
-  margin-bottom: 2.25rem;  
+  margin-bottom: 2.25rem;
 }
 
 .contact p {
@@ -56,217 +57,233 @@ html, body{
   margin-top: 2.25rem;
 }
 
-.a-propos-de-moi{
+.a-propos-de-moi {
   margin-top: 2.25rem;
-  margin-bottom: 2.25rem;     
+  margin-bottom: 2.25rem;
 }
 
- a:hover{
+a:hover {
   text-decoration: none;
   background: red;
-  color: white;  
+  color: white;
   border-radius: 0.2rem;
 }
 
-.a-propos-de-moi p{
+.a-propos-de-moi p {
   margin-left: 3rem;
   margin-right: 3rem;
-  margin-bottom: 1rem;  
-  text-align: justify;  
+  margin-bottom: 1rem;
+  text-align: justify;
 }
 
-.container-a-propos{
+.container-a-propos {
   /* background-color: greenyellow; */
   flex: 10;
 }
 
-.icone-en-bas{    
-  flex: 0; 
+.icone-en-bas {
+  flex: 0;
   /* background-color: magenta; */
 }
 
-.loisirs h2{
+.loisirs h2 {
   font-size: 50px;
 }
 
-.loisirs{   
+.loisirs {
   margin-top: 2.25rem;
-  margin-bottom: 2.25rem;    
+  margin-bottom: 2.25rem;
 }
 
-.icone-loisirs{
-display: flex;
-justify-content: space-around;
-padding-bottom: 2.25rem;
+.icone-loisirs {
+  display: flex;
+  justify-content: space-around;
+  align-items: basis;
+  /* justify-items: center; */
+  padding-bottom: 2.25rem;
 }
 
-.fab, .fas{
-  font-size: 3rem;   
+.fab,
+.fas {
+  font-size: 3rem;
+  /* background: green;   */
+}
+
+.container-icones {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2.25rem;
+}
+
+.cercle-icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.57rem;
+  width: 4.57rem;
+  border: 3px solid black;
+  border-radius: 4.57rem;
 }
 
 /* ---------colonne de DROITE -----------*/
-.droit{
-  background:#FFF;
+.droit {
+  background: #fff;
   margin-left: 4.19rem;
   margin-top: 7.3rem;
-  flex:  2 0 ;  
-  }
+  flex: 2 0;
+}
 
-.nom-prenom h2{
+.nom-prenom h2 {
   margin-left: 0;
-}  
-  
-.fontawesome h2{
-  margin-left: 2.5rem;  
+}
+
+.fontawesome h2 {
+  margin-left: 2.5rem;
   padding-bottom: 0.5rem;
 }
 
 .metier {
-    padding: 0;
+  padding: 0;
 }
 
-.nom-prenom{
-margin-bottom: 9rem;
+.nom-prenom {
+  margin-bottom: 9rem;
 }
 
-.nom-prenom>h1{
+.nom-prenom > h1 {
   font-weight: normal;
   font-size: 44px;
-  
 }
-.nom-prenom h1:first-child span{
-  color: #FECA07;
+.nom-prenom h1:first-child span {
+  color: #feca07;
 }
 
-.metier span{
+.metier span {
   text-decoration: underline;
-  text-decoration-color:#FECA07;
+  text-decoration-color: #feca07;
 }
 
-.nom-prenom h2{
+.nom-prenom h2 {
   font-weight: normal;
   font-size: 23px;
 }
 
-.trait{
+.trait {
   width: 100%;
   height: 1px;
-  background: #FECA07;
+  background: #feca07;
   margin: auto;
 }
 
-.formation-container{
-display: flex;
-flex-direction: column;
+.formation-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.formation-bloc{
+.formation-bloc {
   display: flex;
   flex-shrink: 0;
 }
 
-.date-container{
+.date-container {
   padding-top: 1.25rem;
-  display: flex; 
+  display: flex;
   justify-content: flex-start;
   flex-wrap: nowrap;
   align-content: flex-start;
-  flex: 0 0 12rem;  
- }
-
-.bullet-style{    
-    flex-shrink: 1;
+  flex: 0 0 12rem;
 }
 
-.date-ville{
-    margin-left: 1rem;  
-  } 
+.bullet-style {
+  flex-shrink: 1;
+}
 
-.lieu{
+.date-ville {
+  margin-left: 1rem;
+}
+
+.lieu {
   padding: 1.25rem;
-  flex: auto;  
+  flex: auto;
 }
 
-.lieu p:first-child{
+.lieu p:first-child {
   font-weight: 300;
 }
 
-.lieu p:nth-child(2){
+.lieu p:nth-child(2) {
   font-weight: 700;
 }
 
-.lieu p{
+.lieu p {
   padding-bottom: 0.6rem;
 }
 
-.lieu li{
+.lieu li {
   list-style: circle;
   margin-left: 1rem;
 }
 
-.recommandations-container{
+.recommandations-container {
   display: flex;
   justify-content: space-around;
   margin-bottom: 1rem;
 }
 
-.recommandations-container li{
-  list-style: none;  
+.recommandations-container li {
+  list-style: none;
 }
 
-.recommandations-container ul{
-  padding-top: 1.25rem;  
+.recommandations-container ul {
+  padding-top: 1.25rem;
 }
 
 /* icone  loisirs*/
-.fontawesome{
-  display: flex; 
-  flex-wrap: wrap; 
+.fontawesome {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: center;  
+  align-items: center;
 }
 
-.titre-droite{
+.titre-droite {
   align-self: flex-end;
 }
 
-.fa-graduation-cap{
+.fa-graduation-cap {
   flex: 1;
   font-size: 2rem;
 }
 
-.fa-briefcase{
+.fa-briefcase {
   flex: 1;
   font-size: 2rem;
 }
 
-.fa-pen{
+.fa-pen {
   flex: 1;
   font-size: 2rem;
 }
 /*icone bullet style*/
 
-.fa-circle{
+.fa-circle {
   font-size: 0.8rem;
 }
 
-.fa-dot-circle{
+.fa-dot-circle {
   font-size: 1rem;
 }
 
-
 /*icone coté droit*/
-.icone{
-  color: #FECA07;
+.icone {
+  color: #feca07;
 }
 
-.footer>h3{
-font-size: 10px;
-font-style: italic;
-text-align: right;
-padding-right: 2rem;
+.footer > h3 {
+  font-size: 10px;
+  font-style: italic;
+  text-align: right;
+  padding-right: 2rem;
 }
-
-
-
-
