@@ -21,8 +21,8 @@ body {
 .gauche {
   background: #feca07;
   width: 384px;
-  display: flex; /*ajout pour pb position loisirs*/
-  flex-direction: column; /*ajout pour pb position loisirs*/
+  display: flex; 
+  flex-direction: column; 
 }
 
 .photo {
@@ -76,14 +76,12 @@ a:hover {
   text-align: justify;
 }
 
-.container-a-propos {
-  /* background-color: greenyellow; */
+.container-a-propos {  
   flex: 10;
 }
 
 .icone-en-bas {
-  flex: 0;
-  /* background-color: magenta; */
+  flex: 0; 
 }
 
 .loisirs h2 {
@@ -98,22 +96,22 @@ a:hover {
 .icone-loisirs {
   display: flex;
   justify-content: space-around;
-  align-items: basis;
-  /* justify-items: center; */
+  align-items: basis;  
   padding-bottom: 2.25rem;
 }
 
 .fab,
 .fas {
-  font-size: 3rem;
-  /* background: green;   */
+  font-size: 3rem;   
 }
 
 .container-icones {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  align-content: space-around;
   padding-bottom: 2.25rem;
 }
 
@@ -125,6 +123,7 @@ a:hover {
   width: 4.57rem;
   border: 3px solid black;
   border-radius: 4.57rem;
+  margin-bottom: 1rem;
 }
 
 /* ---------colonne de DROITE -----------*/
