@@ -7,6 +7,8 @@ Openclassrooms - Developpeur Web - Projet 2 : Transformez votre CV en page WEB
 * CSS3 (flexbox)
 * GIT, Git Hub , MINGW64
 
+* Lien CV(https://jpmazel.github.io/oc-dw-projet2/projet-2-cv.html)
+
 
 
 
