@@ -95,8 +95,7 @@ a:hover {
 
 .icone-loisirs {
   display: flex;
-  justify-content: space-around;
-  align-items: basis;  
+  justify-content: space-around;  
   padding-bottom: 2.25rem;
 }
 
