@@ -21,13 +21,15 @@
   width: 150px;
   border: 1px black solid;
   border-radius: 150px;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;  
 }
 
 .photo-mobile{
-  display: block;
-  text-align: center;  
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background:#feca07 ;
 }
 
 .contact p:first-of-type {
@@ -41,12 +43,13 @@
 /* ---------colonne de DROITE -----------*/
 .droit {
   background: #fff;
-  margin-left: 1rem;
-  margin-right: 0.5rem;
-  margin-top: 1rem;  
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-top: 0rem;  
 }
 
 .nom-prenom {
+  margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;  
 }
@@ -57,6 +60,7 @@
 
 .formation-container {  
   flex-wrap: wrap;
+  margin-left: 0.5rem;
 }
 
 .formation-bloc {
@@ -88,9 +92,14 @@
   list-style: none;
 }
 
+.fontawesome h2{
+  margin-left: 1rem;
+}
+
 /* icone  loisirs*/
 .fontawesome {  
   flex: 0;
+  margin-left: 0.5rem;
 }
 
 .titre-droite {
