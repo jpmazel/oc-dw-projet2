@@ -1,6 +1,6 @@
 Début formation 01/04/2020
 # OpenClassrooms-Développeur Web-Projet2
-Openclassrooms - Developpeur Web - Projet 2 : Transformez votre CV en page WEB
+Openclassrooms - Developpeur Web - Projet 2 : Transformez votre CV en page WEB.
 # 🔨 Used in this project
 
 * HTML5
